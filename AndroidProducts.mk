@@ -23,9 +23,9 @@
 
 # inherit MI 6X HAVOC device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_wayne.mk
+    $(LOCAL_DIR)/stag_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_wayne-eng \
-    havoc_wayne-userdebug \
-		havoc_wayne-user
+    stag_wayne-eng \
+    stag_wayne-userdebug \
+		stag_wayne-user

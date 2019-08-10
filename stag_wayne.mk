@@ -25,17 +25,17 @@
 $(call inherit-product, device/xiaomi/wayne/device.mk)
 
 # Inherit from Havoc custom product configuration
-$(call inherit-product, vendor/havoc/config/common.mk)
+$(call, vendor/stag/config/common.mk)
 
 TARGET_VENDOR_PRODUCT_NAME := wayne
 
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.havoc.maintainer=rcstar6696
+BUILD_TYPE=OFFICIAL
+
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
-PRODUCT_NAME := havoc_wayne
+PRODUCT_NAME := stag_wayne
 PRODUCT_DEVICE := wayne
 PRODUCT_MODEL := MI 6X
